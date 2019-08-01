@@ -1,4 +1,4 @@
-# params vs url best practices - https://st                                                ackoverflow.com/questions/150505/capturing-url-parameters-in-request-get
+# params vs url best practices - https://stackoverflow.com/questions/150505/capturing-url-parameters-in-request-get
 
 from django.conf.urls import url
 from . import views
