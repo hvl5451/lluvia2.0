@@ -21,7 +21,7 @@ from django.urls import include
 urlpatterns = [
     # caret matches the preceding string(should begin with that string)
     url(r'^admin', admin.site.urls),
-    # Since we are using only one app, any calls to the website should redirect lluvai.urls.py
+    # Since we are using only one app, any calls to the website should redirect lluvia.urls.py
     url(r'^', include("lluvia.urls"))
 
 ]
