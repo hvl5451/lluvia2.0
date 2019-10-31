@@ -2,3 +2,12 @@
 __pycache__/
 *.pyc
 .idea/
+
+# Django
+db.sqlite3
+local_settings.py
+
+# Environemnts
+venv/
+.env
+.venv
